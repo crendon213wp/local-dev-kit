@@ -1,6 +1,10 @@
 # Security Baseline
 
-This document describes the minimum security practices for running and extending the Stripo Framework. It is foundational guidance, not a certification or a guarantee that every control is already implemented.
+> Community project, not affiliated with Stripo.
+
+This document describes the minimum security practices for running and extending this community project that integrates with the Stripo plugin. It is foundational guidance, not a certification or a guarantee that every control is already implemented.
+
+> Platform note: the Stripo plugin can run on the Free plan, but Stripo enforces service limits of 100 unique emails per month and 30 GB of image storage. If your workflow depends on higher quotas, account for quota exhaustion and monitor for related failures in deployment and testing.
 
 ## Protect credentials
 

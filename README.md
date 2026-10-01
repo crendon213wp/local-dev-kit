@@ -1,6 +1,10 @@
-# Stripo Framework
+# Local dev kit for Stripo Plugin
 
-This is a small app for working with the Stripo email editor.
+> Community project, not affiliated with Stripo.
+
+This is a small local development kit for working with the Stripo email editor plugin.
+
+> Platform note: the Stripo plugin works on the Free plan, but it has service limits. Expect up to 100 unique emails per month and 30 GB of image storage. Those limits are enforced by Stripo, not by this local tool.
 
 It does two useful things:
 
