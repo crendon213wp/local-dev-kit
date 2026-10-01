@@ -29,22 +29,22 @@ Install these first:
 Clone the repository from GitHub:
 
 ```bash
-git clone https://github.com/crendon213wp/master_stripo_file.git
-cd master_stripo_file
+git clone https://github.com/crendon213wp/local-dev-kit.git
+cd local-dev-kit
 ```
 
 On Windows PowerShell:
 
 ```powershell
-git clone https://github.com/crendon213wp/master_stripo_file.git
-Set-Location "master_stripo_file"
+git clone https://github.com/crendon213wp/local-dev-kit.git
+Set-Location "local-dev-kit"
 ```
 
 ## 2. Create your private settings file
 
 The repository includes `.env.example`. It is a form. Your job is to make the real file.
 
-From the `master_stripo_file` directory, copy it to `.env`.
+From the `local-dev-kit` directory, copy it to `.env`.
 
 ### Windows PowerShell
 
@@ -77,7 +77,7 @@ Do not upload `.env` to GitHub. It contains private credentials. The `.gitignore
 
 ## 3. Install the dependencies
 
-Run this from the `master_stripo_file` directory:
+Run this from the `local-dev-kit` directory:
 
 ```bash
 npm install
@@ -121,7 +121,7 @@ New projects are created in a sibling directory beside the cloned repository:
 <parent-directory>\<project-name>
 ```
 
-They are not created inside `master_stripo_file`.
+They are not created inside `local-dev-kit`.
 
 ## Save and reopen a project
 
@@ -139,7 +139,7 @@ Project content is stored in a `template.json` file inside the project directory
 Check these four things:
 
 1. The file is named `.env`.
-2. The file is inside `master_stripo_file`.
+2. The file is inside `local-dev-kit`.
 3. `STRIPO_PLUGIN_ID` has a real Plugin ID.
 4. `STRIPO_SECRET_KEY` has a real Secret Key.
 
@@ -164,7 +164,7 @@ http://localhost:3001
 
 Make sure:
 
-- The server is running from `master_stripo_file`.
+- The server is running from `local-dev-kit`.
 - The parent directory is writable.
 - You are not trying to create a project with a name that already exists.
 
